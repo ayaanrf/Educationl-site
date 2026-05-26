@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ur">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamiat - Islamic Studies</title>
+    <link rel="stylesheet" href="islamiat.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <a href="practice.html">Home</a>
+            <a href="index.html">Practice</a>
+            <a href="Urdu.html">Urdu</a>
+            <a href="islamiat.html">Islamiat</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>اسلامیات - Islamic Studies</h1>
+            <p>Learn about Islamic principles, teachings, and values. یہاں اسلامی اصول، تعلیمات اور اقدار کے بارے میں
+                جانیں۔</p>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('basics')">بنیادی تعارف - Basics</button>
+            <button class="tab-btn" onclick="showTab('pillars')">ارکان - Pillars</button>
+            <button class="tab-btn" onclick="showTab('quran')">قرآن مجید - Quran</button>
+            <button class="tab-btn" onclick="showTab('hadith')">احادیث - Hadith</button>
+            <button class="tab-btn" onclick="showTab('ethics')">اخلاقیات - Ethics</button>
+        </div>
+
+        <!-- Basics Section -->
+        <div id="basics" class="content active">
+            <div class="section-title">
+                <h2>📖 اسلام کا تعارف - Introduction to Islam</h2>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <span class="card-icon">📚</span>
+                    <h3>اسلام کیا ہے؟</h3>
+                    <p>اسلام عربی لفظ ہے جس کے معنی "سمجھوتہ اور امن" ہیں۔ اسلام اللہ تعالیٰ کے تمام پیغمبروں کا دین ہے۔
+                    </p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">👳</span>
+                    <h3>محمد صلی اللہ علیہ وسلم</h3>
+                    <p>حضرت محمد صلی اللہ علیہ وسلم اسلام کے آخری پیغمبر ہیں۔ آپ نے عالمی طریقے سے اسلام کی تعلیم دی۔
+                    </p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">🕌</span>
+                    <h3>قرآن مجید</h3>
+                    <p>قرآن مجید اللہ تعالیٰ کا آخری حکم و علم ہے۔ یہ تمام مسلمانوں کے لیے ہدایت کی روشنی ہے۔</p>
+                </div>
+            </div>
+
+            <div class="notes-container">
+                <div class="note-card">
+                    <h3>✨ اسلام کے بنیادی اصول</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li><strong>توحید:</strong> صرف اللہ ہی معبود حقیقی ہے</li>
+                            <li><strong>رسالت:</strong> محمد صلی اللہ علیہ وسلم اللہ کے آخری پیغمبر ہیں</li>
+                            <li><strong>آخرت:</strong> روز قیامت اور اللہ کے سامنے جوابدہی</li>
+                            <li><strong>عدل:</strong> ہر کام میں انصاف اور برابری</li>
+                            <li><strong>رحمت:</strong> تمام مخلوقات کے ساتھ شفقت</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>🌍 اسلام میں یکتائے اللہ</h3>
+                    <div class="note-content">
+                        <p><strong>توحید اسلام کی بنیاد ہے۔</strong></p>
+                        <ul>
+                            <li>اللہ ایک ہے، کوئی اس کے برابر نہیں</li>
+                            <li>اللہ کا کوئی بیٹا نہیں ہے</li>
+                            <li>اللہ تمام طاقتوں کا مالک ہے</li>
+                            <li>صرف اللہ ہی عبادت کے قابل ہے</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>💡 اسلامی تہذیب</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li><strong>علم:</strong> علم حاصل کرنا ہر مسلمان کا فرض ہے</li>
+                            <li><strong>عمل:</strong> علم کو عملی جامہ پہنانا ضروری ہے</li>
+                            <li><strong>اخلاق:</strong> اچھی اخلاقیات تمام دینی کاموں کی بنیاد ہے</li>
+                            <li><strong>معاشرہ:</strong> پاکی معاشرے کی تعمیر اسلام کا نصب العین</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pillars Section -->
+        <div id="pillars" class="content">
+            <div class="section-title">
+                <h2>🕌 اسلام کے پانچ ارکان - Five Pillars of Islam</h2>
+            </div>
+
+            <div class="lesson-item">
+                <h3>1️⃣ کلمہ (ONENESS OF ALLAH - Declaration of Faith)</h3>
+                <p>لا الہ الا اللہ محمد رسول اللہ - اس بات کا اقرار کہ اللہ ایک ہے اور محمد صلی اللہ علیہ وسلم اس کے
+                    پیغمبر ہیں۔</p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>2️⃣ نماز (Salah - Prayer)</h3>
+                <p>دن میں پانچ وقت نماز پڑھنا ہر مسلمان کے لیے فرض ہے۔ نماز روح کی خوراک اور اللہ سے تعلق کا ذریعہ ہے۔
+                </p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>3️⃣ زکوۃ (Alms-giving)</h3>
+                <p>ہر ہجری سال میں اپنی دولت کا 2.5 فیصد غریبوں اور ضرورت مندوں میں تقسیم کرنا ہر مسلمان کی ذمہ داری ہے۔
+                </p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>4️⃣ روزہ (Fasting)</h3>
+                <p>رمضان المبارک کے مہینے میں روزہ رکھنا ہر بالغ مسلمان پر فرض ہے۔ روزہ نفس کو صاف اور ضبط کرتا ہے۔</p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>5️⃣ حج (Pilgrimage)</h3>
+                <p>جو مسلمان جسمانی اور مالی طور پر قابل ہو، انہیں اپنی زندگی میں کم از کم ایک بار حج کرنا ہے۔</p>
+            </div>
+
+            <div class="notes-container" style="margin-top: 30px;">
+                <div class="note-card">
+                    <h3>🛏️ نماز کے اوقات</h3>
+                    <div class="note-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>نماز</th>
+                                    <th>وقت</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>فجر</td>
+                                    <td>سورج نکلنے سے پہلے</td>
+                                </tr>
+                                <tr>
+                                    <td>ظہر</td>
+                                    <td>دوپہر میں سورج ڈھلنے سے پہلے</td>
+                                </tr>
+                                <tr>
+                                    <td>عصر</td>
+                                    <td>دوپہر گھومنے کے بعد</td>
+                                </tr>
+                                <tr>
+                                    <td>مغرب</td>
+                                    <td>سورج ڈوبنے کے فوری بعد</td>
+                                </tr>
+                                <tr>
+                                    <td>عشاء</td>
+                                    <td>رات ہونے کے بعد</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quran Section -->
+        <div id="quran" class="content">
+            <div class="section-title">
+                <h2>📿 قرآن مجید - The Holy Quran</h2>
+            </div>
+
+            <div class="notes-container">
+                <div class="note-card">
+                    <h3>📖 قرآن کے بارے میں</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li><strong>مصنف:</strong> اللہ تعالیٰ</li>
+                            <li><strong>رسول:</strong> حضرت محمد صلی اللہ علیہ وسلم</li>
+                            <li><strong>سورتیں:</strong> 114 سورتیں ہیں</li>
+                            <li><strong>آیتیں:</strong> 6236 آیتیں ہیں</li>
+                            <li><strong>پاراہ:</strong> 30 پاراہ/اجزاء ہیں</li>
+                            <li><strong>زبان:</strong> عربی میں ہے</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>✨ قرآن کی خصوصیات</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li>قرآن میں کوئی غلطی نہیں ہے</li>
+                            <li>قرآن تمام وقت کے لیے ہدایت ہے</li>
+                            <li>قرآن میں تمام علوم کے سوتے ہیں</li>
+                            <li>قرآن کی حفاظت اللہ نے خود کی ہے</li>
+                            <li>قرآن پڑھنا اور سمجھنا بہت اہم ہے</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>🌟 قرآن کے فوائل</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li>روحانی سکون اور شانتی</li>
+                            <li>صحیح سلوک اور سرمایہ</li>
+                            <li>دنیا اور آخرت میں بھلائی</li>
+                            <li>شفائے الام (تمام بیماریوں کی شفا)</li>
+                            <li>اللہ کی رہنمائی اور حکمت</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="verse-container">
+                <h3>📜 قرآن مجید کی ایک آیت</h3>
+                <div class="verse-text">
+                    الر ۚ كِتَابٌ أُحْكِمَتْ آيَاتُهُ ثُمَّ فُصِّلَتْ مِن لَّدُن حَكِيمٍ خَبِيرٍ
+                </div>
+                <div class="verse-translation">
+                    <strong>ترجمہ:</strong> الف لام را۔ یہ کتاب ہے جس کی آیتیں محکم کی گئی ہیں پھر انہیں تفصیل سے بیان
+                    کیا گیا ہے، ایک حکمت والے، خبر رکھنے والے کی طرف سے۔
+                </div>
+            </div>
+        </div>
+
+        <!-- Hadith Section -->
+        <div id="hadith" class="content">
+            <div class="section-title">
+                <h2>📚 احادیث شریف - Hadith</h2>
+            </div>
+
+            <div class="notes-container">
+                <div class="note-card">
+                    <h3>📖 حدیث کیا ہے؟</h3>
+                    <div class="note-content">
+                        <p>حدیث سے مراد رسول اللہ صلی اللہ علیہ وسلم کے کام و قول اور تقریر ہے۔ قرآن کے بعد احادیث شریف
+                            اسلام کا سب سے بڑا ذریعہ علم ہے۔</p>
+                        <ul>
+                            <li>احادیث میں نبی اکرم کی سنت ہے</li>
+                            <li>احادیث میں نماز، روزہ وغیرہ کی تفصیل ہے</li>
+                            <li>احادیث میں اخلاقی اور عملی تعلیمات ہیں</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>📚 احادیث کی کتابیں</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li><strong>صحیح بخاری:</strong> سب سے قابل اعتماد</li>
+                            <li><strong>صحیح مسلم:</strong> دوسری معتبر کتاب</li>
+                            <li><strong>ابو داؤد:</strong> مختلف موضوعات پر</li>
+                            <li><strong>ترمذی:</strong> احادیث کی تشریح کے ساتھ</li>
+                            <li><strong>ابن ماجہ:</strong> مختلف احادیث کا مجموعہ</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>💡 احادیث سے فوائل</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li>نبی کی سنت پر عمل کرنا</li>
+                            <li>مسائل کا حل تلاش کرنا</li>
+                            <li>صحیح نیت اور عمل</li>
+                            <li>اللہ کے ساتھ تعلق مضبوط کرنا</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="verse-container" style="margin-top: 30px;">
+                <h3>📜 ایک شریف حدیث</h3>
+                <div class="verse-text">
+                    خیركم من تعلم القرآن وعلمه
+                </div>
+                <div class="verse-translation">
+                    <strong>ترجمہ:</strong> "تم میں سے بہترین وہ ہے جو قرآن سیکھے اور اسے (دوسروں کو) سکھائے۔"
+                </div>
+            </div>
+        </div>
+
+        <!-- Ethics Section -->
+        <div id="ethics" class="content">
+            <div class="section-title">
+                <h2>✨ اسلامی اخلاقیات - Islamic Ethics</h2>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <span class="card-icon">❤️</span>
+                    <h3>سچائی (Truthfulness)</h3>
+                    <p>سچائی اسلام کا بنیادی اصول ہے۔ سچائی سے انسان کو دنیا اور آخرت میں کامیابی ملتی ہے۔</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">🤝</span>
+                    <h3>دیانتداری (Honesty)</h3>
+                    <p>کسی کے ساتھ دغا باز ہونا حرام ہے۔ دیانتداری سے تجارت اور معاملات کریں۔</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">🙏</span>
+                    <h3>حیاء (Modesty)</h3>
+                    <p>حیاء ایمان کا حصہ ہے۔ بُرے کاموں سے بچنے کے لیے حیاء ضروری ہے۔</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">💪</span>
+                    <h3>صبر (Patience)</h3>
+                    <p>صبر سے ہر مشکل کا حل ہو جاتا ہے۔ صبر کرنے والے کو اللہ محبوب ہے۔</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">🫱</span>
+                    <h3>رحمت (Compassion)</h3>
+                    <p>تمام مخلوق پر رحمت کرنا اسلام کا حکم ہے۔ رحمت دل کو پاک رکھتی ہے۔</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">⚖️</span>
+                    <h3>عدل (Justice)</h3>
+                    <p>ہر جگہ عدل اور انصاف کرنا ہر مسلمان کا فرض ہے۔ عدل سے معاشرہ خوشحال رہتا ہے۔</p>
+                </div>
+            </div>
+
+            <div class="notes-container" style="margin-top: 30px;">
+                <div class="note-card">
+                    <h3>👨‍👩‍👧‍👦 خاندار میں اخلاقیات</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li>ماں باپ کی خدمت کرنا</li>
+                            <li>بھائی بہن سے اچھا سلوک</li>
+                            <li>بیوی کے ساتھ نرمی</li>
+                            <li>بچوں کی تربیت</li>
+                            <li>رشتہ داروں سے رشتہ رکھنا</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>🤲 معاشرے میں اخلاقیات</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li>ہمسائے کے ساتھ اچھا برتاؤ</li>
+                            <li>غریبوں کی مدد کرنا</li>
+                            <li>بیمار کی عیادت</li>
+                            <li>سلام و الفت رکھنا</li>
+                            <li>کسی کو نقصان نہ پہنچانا</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>💼 کام میں اخلاقیات</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li>ایمانداری سے کام کریں</li>
+                            <li>بہترین کام کریں</li>
+                            <li>وقت کی پابندی</li>
+                            <li>ساتھیوں سے اچھا سلوک</li>
+                            <li>حلال کا کام کریں</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="gallery-section">
+        <h2>🖼️ Islamic Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <span>🕌</span>
+                <div class="label">Masjid - Mosque</div>
+            </div>
+            <div class="gallery-item">
+                <span>📿</span>
+                <div class="label">Qibla</div>
+            </div>
+            <div class="gallery-item">
+                <span>🌙</span>
+                <div class="label">Islamic Month</div>
+            </div>
+            <div class="gallery-item">
+                <span>🤲</span>
+                <div class="label">Dua - Prayer</div>
+            </div>
+            <div class="gallery-item">
+                <span>📚</span>
+                <div class="label">Islamic Knowledge</div>
+            </div>
+            <div class="gallery-item">
+                <span>✨</span>
+                <div class="label">Islamic Values</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2026 My Teaching Academy - Islamic Studies<br>
+            <a href="contact.html">Contact Us - ہم سے رابطہ کریں</a>
+        </p>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => content.classList.remove('active'));
+
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(button => button.classList.remove('active'));
+
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اردو سیکھیں - Urdu Learning</title>
+    <link rel="stylesheet" href="urdu.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="practice.html">Practice</a>
+            <a href="Urdu.html">Urdu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>اردو سیکھیں</h1>
+            <p>Urdu Learning Course - آپ یہاں اردو کی تمام نوٹس اور سبق ملیں گے</p>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('lessons')">سبق - Lessons</button>
+            <button class="tab-btn" onclick="showTab('notes')">نوٹس - Notes</button>
+            <button class="tab-btn" onclick="showTab('vocabulary')">الفاظ - Vocabulary</button>
+            <button class="tab-btn" onclick="showTab('grammar')">گرامر - Grammar</button>
+            <button class="tab-btn" onclick="showTab('quiz')">ٹیسٹ - Quiz</button>
+        </div>
+
+        <!-- Lessons Section -->
+        <div id="lessons" class="content active">
+            <div class="section-title">
+                <h2>📚 اردو سبق - Urdu Lessons</h2>
+            </div>
+
+            <div class="lesson-item">
+                <h3>سبق 1: اردو الفبیاء (Urdu Alphabet)</h3>
+                <p>اردو کے تمام حروف کو سیکھیں۔ یہاں ہر حرف کی تفصیل اور تلفظ موجود ہے۔</p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>سبق 2: سلام و تحیت (Greetings)</h3>
+                <p>روزمرہ کے سلام و تحیت کے جملے اور ان کا صحیح استعمال سیکھیں۔</p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>سبق 3: عام فقرے (Common Phrases)</h3>
+                <p>روز مرہ زندگی میں استعمال ہونے والے اہم فقرے سیکھیں۔</p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>سبق 4: اعداد اور تعداد (Numbers)</h3>
+                <p>اردو میں اعداد کی شمار اور ان کا استعمال سیکھیں۔</p>
+            </div>
+
+            <div class="lesson-item">
+                <h3>سبق 5: رشتے دار (Family)</h3>
+                <p>خاندان کے افراد کے نام اور ان کے تعلقات سیکھیں۔</p>
+            </div>
+        </div>
+
+        <!-- Notes Section -->
+        <div id="notes" class="content">
+            <div class="section-title">
+                <h2>📝 تفصیلی نوٹس - Detailed Notes</h2>
+            </div>
+
+            <div class="notes-container">
+                <div class="note-card">
+                    <h3>📚 اردو الفبیاء - Urdu Alphabet</h3>
+                    <div class="note-content">
+                        <p><strong>اردو میں کل 37 حروف ہوتے ہیں۔</strong></p>
+                        <ul>
+                            <li><strong>الف:</strong> ا - یہ لمبی آواز ہے</li>
+                            <li><strong>بے:</strong> ب - یہ "ب" کی آواز نکالتے ہیں</li>
+                            <li><strong>پے:</strong> پ - یہ "پ" کی آواز نکالتے ہیں</li>
+                            <li><strong>تے:</strong> ت - یہ "ت" کی آواز نکالتے ہیں</li>
+                            <li><strong>ثے:</strong> ث - یہ "ث" کی آواز نکالتے ہیں</li>
+                        </ul>
+                        <p><strong>یاد رکھنے والی بات:</strong> اردو کے حروف دائیں سے بائیں لکھے جاتے ہیں۔</p>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>💬 سلام و تحیت - Greetings</h3>
+                    <div class="note-content">
+                        <p><strong>اردو میں مختلف سلام کے طریقے:</strong></p>
+                        <ul>
+                            <li><strong>السلام علیکم:</strong> Peace be upon you (رسمی سلام)</li>
+                            <li><strong>وعلیکم السلام:</strong> And upon you peace (جواب)</li>
+                            <li><strong>صبح بخیر:</strong> Good morning</li>
+                            <li><strong>شام بخیر:</strong> Good evening</li>
+                            <li><strong>رات بخیر:</strong> Good night</li>
+                            <li><strong>خدا حافظ:</strong> Goodbye</li>
+                        </ul>
+                        <p><strong>نکتہ:</strong> علمائے دین کے سامنے "السلام علیکم" کہنا احترام کا نشان ہے۔</p>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>🗣️ عام فقرے - Common Phrases</h3>
+                    <div class="note-content">
+                        <p><strong>روز مرہ میں استعمال ہونے والے فقرے:</strong></p>
+                        <ul>
+                            <li><strong>میرا نام _____ ہے:</strong> My name is _____</li>
+                            <li><strong>آپ کا نام کیا ہے؟</strong> What is your name?</li>
+                            <li><strong>آپ کیسے ہو؟</strong> How are you?</li>
+                            <li><strong>مجھے خوشی ہے:</strong> I am happy</li>
+                            <li><strong>مجھے درد ہے:</strong> I have pain</li>
+                            <li><strong>کیا آپ انگریزی بولتے ہو؟</strong> Do you speak English?</li>
+                            <li><strong>براہ کرم آہستہ بولیں:</strong> Please speak slowly</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>🔢 اعداد اور تعداد - Numbers</h3>
+                    <div class="note-content">
+                        <p><strong>اردو میں ایک سے دس تک اعداد:</strong></p>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background: #f0f0f0;">
+                                <td style="padding: 8px; border: 1px solid #ddd;"><strong>English</strong></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"><strong>Urdu</strong></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"><strong>Words</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">One</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">ایک</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">ek</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Two</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">دو</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">do</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Three</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">تین</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">teen</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Four</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">چار</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">char</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Five</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">پانچ</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">panch</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>👨‍👩‍👧‍👦 رشتے دار - Family</h3>
+                    <div class="note-content">
+                        <p><strong>اردو میں خاندان کے افراد کے نام:</strong></p>
+                        <ul>
+                            <li><strong>ابا/باپ:</strong> Father</li>
+                            <li><strong>ماں/امی:</strong> Mother</li>
+                            <li><strong>بھائی:</strong> Brother</li>
+                            <li><strong>بہن:</strong> Sister</li>
+                            <li><strong>دادا:</strong> Grandfather (paternal)</li>
+                            <li><strong>دادی:</strong> Grandmother (paternal)</li>
+                            <li><strong>نانا:</strong> Grandfather (maternal)</li>
+                            <li><strong>نانی:</strong> Grandmother (maternal)</li>
+                            <li><strong>چچا:</strong> Uncle (father's brother)</li>
+                            <li><strong>خالہ:</strong> Aunt (mother's sister)</li>
+                        </ul>
+                        <p><strong>مثال:</strong> یہ میرا ابا ہے۔ (This is my father.)</p>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>✍️ اردو لکھنے کے اصول - Writing Rules</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li><strong>سمت:</strong> اردو دائیں سے بائیں لکھی جاتی ہے</li>
+                            <li><strong>حروف کی شکل:</strong> حروف کی شکل الفاظ میں ان کی جگہ پر منحصر ہوتی ہے</li>
+                            <li><strong>نقاط:</strong> کچھ حروف میں نقاط (نقطے) لگائے جاتے ہیں</li>
+                            <li><strong>اعراب:</strong> اردو میں اعراب جیسے حرکات، سکون وغیرہ استعمال ہوتی ہیں</li>
+                            <li><strong>وقفے:</strong> جملے کے آخر میں "۔" لگایا جاتا ہے</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>🎓 اردو سیکھنے کے فوائد - Benefits</h3>
+                    <div class="note-content">
+                        <ul>
+                            <li>🌍 <strong>ثقافت:</strong> اردو کے ذریعے اسلامی اور جنوبی ایشیائی ثقافت کو سمجھیں</li>
+                            <li>📚 <strong>ادب:</strong> اردو کے عظیم شاعروں اور لکھاریوں کی تحریریں پڑھیں</li>
+                            <li>💼 <strong>کیریئر:</strong> اردو میں مہارت کیریئر میں مددگار ثابت ہو سکتی ہے</li>
+                            <li>👥 <strong>رابطہ:</strong> لاکھوں لوگوں سے اردو میں بات چیت کریں</li>
+                            <li>🧠 <strong>ذہنی صلاحیت:</strong> کئی زبانیں سیکھنے سے ذہنی صلاحیت بڑھتی ہے</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vocabulary Section -->
+        <div id="vocabulary" class="content">
+            <div class="section-title">
+                <h2>📖 الفاظ - Vocabulary</h2>
+            </div>
+
+            <table class="vocab-table">
+                <thead>
+                    <tr>
+                        <th>مطلب (Meaning)</th>
+                        <th>لفظ (Word)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hello</td>
+                        <td>السلام علیکم</td>
+                    </tr>
+                    <tr>
+                        <td>Good Morning</td>
+                        <td>صبح بخیر</td>
+                    </tr>
+                    <tr>
+                        <td>Thank You</td>
+                        <td>شکریہ</td>
+                    </tr>
+                    <tr>
+                        <td>Please</td>
+                        <td>براہ کرم</td>
+                    </tr>
+                    <tr>
+                        <td>Yes</td>
+                        <td>جی</td>
+                    </tr>
+                    <tr>
+                        <td>No</td>
+                        <td>نہیں</td>
+                    </tr>
+                    <tr>
+                        <td>Water</td>
+                        <td>پانی</td>
+                    </tr>
+                    <tr>
+                        <td>Book</td>
+                        <td>کتاب</td>
+                    </tr>
+                    <tr>
+                        <td>School</td>
+                        <td>سکول</td>
+                    </tr>
+                    <tr>
+                        <td>Friend</td>
+                        <td>دوست</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Grammar Section -->
+        <div id="grammar" class="content">
+            <div class="section-title">
+                <h2>✏️ گرامر - Grammar</h2>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <span class="card-icon">📝</span>
+                    <h3>اسم (Noun)</h3>
+                    <p>اسم وہ لفظ ہے جو کسی شخص، چیز یا جگہ کا نام دیتا ہے۔ مثلاً: محمد، سیب، گھر</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">📝</span>
+                    <h3>فعل (Verb)</h3>
+                    <p>فعل کا مطلب کام کرنا ہے۔ یہ اعمال اور حرکتوں کو ظاہر کرتا ہے۔ مثلاً: لکھنا، پڑھنا</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">📝</span>
+                    <h3>صفت (Adjective)</h3>
+                    <p>صفت کا مطلب کسی چیز کی خصوصیت یا صورت بیان کرنا ہے۔ مثلاً: سرخ، بڑا، خوبصورت</p>
+                </div>
+
+                <div class="card">
+                    <span class="card-icon">📝</span>
+                    <h3>ضمیر (Pronoun)</h3>
+                    <p>ضمیر اسم کی جگہ استعمال ہوتی ہے۔ مثلاً: میں، تم، وہ، ہم</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quiz" class="content">
+            <div class="section-title">
+                <h2>🎯 ٹیسٹ - Quiz</h2>
+            </div>
+
+            <div class="quiz-item">
+                <h3>سوال 1: "السلام علیکم" کا مطلب کیا ہے؟</h3>
+                <div class="quiz-options">
+                    <div class="option">A) Good Morning</div>
+                    <div class="option">B) Hello</div>
+                    <div class="option">C) Thank You</div>
+                </div>
+            </div>
+
+            <div class="quiz-item">
+                <h3>سوال 2: اردو میں "کتاب" کا لفظ کیا ہے؟</h3>
+                <div class="quiz-options">
+                    <div class="option">A) School</div>
+                    <div class="option">B) Book</div>
+                    <div class="option">C) Friend</div>
+                </div>
+            </div>
+
+            <div class="quiz-item">
+                <h3>سوال 3: "فعل" کیا ہے؟</h3>
+                <div class="quiz-options">
+                    <div class="option">A) نام (Name)</div>
+                    <div class="option">B) کام کرنا (To do/Action)</div>
+                    <div class="option">C) خصوصیت (Quality)</div>
+                </div>
+            </div>
+
+            <button class="btn">جواب جمع کریں - Submit</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 My Teaching Academy - اردو سیکھیں<br>
+        <a href="contact.html">ہم سے رابطہ کریں - Contact Us</a></p>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all content
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => content.classList.remove('active'));
+
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(button => button.classList.remove('active'));
+
+            // Show selected content
+            document.getElementById(tabName).classList.add('active');
+
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

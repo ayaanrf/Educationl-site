@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Teaching Academy</title>
+     <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+     
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>My Teaching Academy</h1>
+            <p class="tagline">Let's Learn Together!</p>
+            <p class="welcome">Welcome to the website of My Teaching Academy. We provide quality education with experienced instructors and comprehensive curriculum designed for student success.</p>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="tabs">
+            <button class="tab-button active">Overview</button>
+            <button class="tab-button">Subjects</button>
+            <button class="tab-button">About</button>
+            <button class="tab-button">Contact</button>
+        </div>
+
+        <!-- Subjects as Cards -->
+        <div class="info-section">
+            <h2>📚 Subjects We Teach</h2>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <span class="card-icon">📖</span>
+                <h3>English</h3>
+                <p>Master the language with comprehensive reading, writing, and speaking skills.</p>
+                <a href="english.html"_blank>click me</a>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">🔢</span>
+                <h3>Mathematics</h3>
+                <p>Build strong mathematical foundations from basics to advanced concepts.</p>
+                <a href="Maths.html"_blank>click me</a>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">✍️</span>
+                <h3>Urdu</h3>
+                <p>Learn and practice the beauty of Urdu language and literature.</p>
+                <a style="color:red" href="Urdu.html"_blank>click me</a>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">💻</span>
+                <h3>Computer Science</h3>
+                <p>Explore programming, web development, and modern IT technologies.</p>
+                <a href="Computer.html"_blank>click me</a>
+            </div>
+            <div class="card">
+                <span class="card-icon">🕋</span>
+                <h3>Islamiat</h3>
+                <p>Learn Islamic principles, teachings, and values.</p>
+                <a href="islamiat.html"_blank>click me</a>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="gallery-section">
+            <h2>🖼️ Academy Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <span>📚</span>
+                    <div class="label">Library</div>
+                </div>
+                <div class="gallery-item">
+                    <span>🏫</span>
+                    <div class="label">Classroom</div>
+                </div>
+                <div class="gallery-item">
+                    <span>👨‍🏫</span>
+                    <div class="label">Teachers</div>
+                </div>
+                <div class="gallery-item">
+                    <span>💻</span>
+                    <div class="label">Computer Lab</div>
+                </div>
+                <div class="gallery-item">
+                    <span>🎓</span>
+                    <div class="label">Graduation</div>
+                </div>
+                <div class="gallery-item">
+                    <span>🏆</span>
+                    <div class="label">Achievements</div>
+                </div>
+                <div class="gallery-item">
+                    <span>🤝</span>
+                    <div class="label">Community</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="info-section">
+            <h2>📝 Resources</h2>
+            <p>For further details about the offered subjects, visit:</p>
+
+            <div class="footer-link">
+                <a href="https://www.nbf.org" target="_blank">National Book Foundation Homepage</a>
+            </div>
+        </div>
+
+        <!-- Fees Section -->
+        <div class="fees-section">
+            <h2>💰 Fee Information</h2>
+            <p>We take fees in advance. Monthly payment plans are offered only on payment of full fees.</p>
+        </div>
+    </div>
+
+    <script>
+        // Tab functionality
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', function() {
+                document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

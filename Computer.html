@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f6fc;
+            color: #1b253d;
+        }
+        header {
+            background: #2a69ff;
+            color: white;
+            padding: 24px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 8px 0 0;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        nav {
+            background: #ffffff;
+            border-bottom: 1px solid #dbe2ef;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 12px 0;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: #2a69ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        main {
+            max-width: 960px;
+            margin: 30px auto;
+            padding: 0 20px 40px;
+        }
+        section {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        section h2 {
+            margin-top: 0;
+            color: #1a202c;
+        }
+        .note-list {
+            margin: 0;
+            padding-left: 1.2rem;
+        }
+        .note-list li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            display: inline-block;
+            padding: 3px 8px;
+            margin: 0 2px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            padding: 18px 20px;
+            color: #718096;
+            font-size: 0.94rem;
+        }
+        @media (max-width: 640px) {
+            nav ul {
+                flex-wrap: wrap;
+            }
+            nav li {
+                margin: 6px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Notes</h1>
+        <p>Essential concepts, definitions, and key ideas for computer studies.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#networks">Networks</a></li>
+            <li><a href="#glossary">Glossary</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Computers are electronic devices that process data and perform tasks using hardware and software. They accept input, process it, store information, and produce output.</p>
+            <ul class="note-list">
+                <li><span class="highlight">Input</span> - data entered into the computer through devices like keyboard, mouse, or scanner.</li>
+                <li><span class="highlight">Processing</span> - operations performed by the CPU and memory.</li>
+                <li><span class="highlight">Storage</span> - saving data on drives, memory, or cloud systems.</li>
+                <li><span class="highlight">Output</span> - results shown via monitor, printer, or speakers.</li>
+            </ul>
+        </section>
+        <section id="hardware">
+            <h2>Computer Hardware</h2>
+            <p>Hardware is the physical part of a computer system. It includes the central processing unit, memory, storage, and input/output devices.</p>
+            <ul class="note-list">
+                <li><strong>CPU</strong> - the brain of the computer, responsible for executing instructions.</li>
+                <li><strong>RAM</strong> - temporary memory used while programs are running.</li>
+                <li><strong>Storage</strong> - long-term data storage such as HDDs, SSDs, and flash drives.</li>
+                <li><strong>Motherboard</strong> - the main circuit board connecting all components.</li>
+                <li><strong>Peripherals</strong> - devices like keyboard, mouse, printer, and monitor.</li>
+            </ul>
+        </section>
+        <section id="software">
+            <h2>Computer Software</h2>
+            <p>Software is the set of instructions that tells hardware what to do. It is divided into system software and application software.</p>
+            <ul class="note-list">
+                <li><strong>System software</strong> - operating systems and utility programs that manage hardware.</li>
+                <li><strong>Application software</strong> - programs used to perform user tasks like word processing, browsing, and spreadsheets.</li>
+                <li><strong>Operating system</strong> - examples include Windows, Linux, and macOS.</li>
+                <li><strong>Drivers</strong> - software that lets the operating system communicate with hardware devices.</li>
+            </ul>
+        </section>
+        <section id="networks">
+            <h2>Networks and Internet</h2>
+            <p>A computer network connects multiple devices to share data and resources. The internet is a global network of networks.</p>
+            <ul class="note-list">
+                <li><strong>LAN</strong> - Local Area Network, used within a limited area like a home or office.</li>
+                <li><strong>WAN</strong> - Wide Area Network, connects devices over larger distances.</li>
+                <li><strong>Protocol</strong> - rules that define communication between devices, such as TCP/IP.</li>
+                <li><strong>Router</strong> - device that forwards data packets between networks.</li>
+            </ul>
+        </section>
+        <section id="glossary">
+            <h2>Glossary</h2>
+            <ul class="note-list">
+                <li><strong>Algorithm</strong> - a step-by-step procedure for solving a problem.</li>
+                <li><strong>Binary</strong> - a number system with base 2, using 0 and 1.</li>
+                <li><strong>Database</strong> - an organized collection of structured information.</li>
+                <li><strong>Firewall</strong> - security system that controls incoming and outgoing network traffic.</li>
+                <li><strong>Cloud</strong> - internet-based storage and services.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Computer notes page generated for easy study and revision.</p>
+    </footer>
+</body>
+</html>
